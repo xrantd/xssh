@@ -2,8 +2,8 @@
 echo -e "\n-------set up dot net env-------"
 
 DOWNLOAD_X64=https://f.uome.cn/dotnet-sdk-6.0.201-linux-musl-x64.tar.gz
-DOWNLOAD_ARM32=https://f.uome.cn/dotnet-sdk-6.0.201-linux-musl-x64.tar.gz
-DOWNLOAD_ARM64=https://f.uome.cn/dotnet-sdk-6.0.201-linux-musl-x64.tar.gz
+DOWNLOAD_ARM32=https://f.uome.cn/dotnet-sdk-6.0.201-linux-musl-arm.tar.gz
+DOWNLOAD_ARM64=https://f.uome.cn/dotnet-sdk-6.0.201-linux-musl-arm64.tar.gz
 
 get_download_url_by_machine_architecture() {
     if command -v uname > /dev/null; then
